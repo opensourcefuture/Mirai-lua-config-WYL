@@ -46,7 +46,8 @@
 [作者github](https://github.com/opensourcefuture)的issue提出<br>
 (QQ上基本不解决问题)
 
-###### readme.md文档暂时不全，请做等待(排版的问题等我学会[markdown语言](http://note.youdao.com/iyoudao/?p=2411&vendor=unsilent14)再说)
->什么是Markdown？Markdown是一种轻量级的「标记语言」，通常为程序员群体所用，目前它已是全球最大的技术分享网站 GitHub 和技术问答网站 StackOverFlow 的御用书写格式。
+#### **README.md文档暂时不全，请做等待**<br>
+(排版的问题等我学会Markdown语言再说)
+>什么是Markdown？[Markdown]http://note.youdao.com/iyoudao/?p=2411&vendor=unsilent14)是一种轻量级的「标记语言」，通常为程序员群体所用，目前它已是全球最大的技术分享网站 GitHub 和技术问答网站 StackOverFlow 的御用书写格式。
 
 **非技术类笔记用户，千万不要被「标记」、「语言」吓到，Markdown的语法十分简单，常用的标记符号不超过十个，用于日常写作记录绰绰有余，不到半小时就能完全掌握。**
