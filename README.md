@@ -6,7 +6,7 @@
 ## MiraiAndroid配置(来自wyl)
 
 (请使用md阅读器来阅读md文件)<br>
-
+</div>
 -1. 什么是Mirai?
  - Mirai是以 OICQ(QQ) 协议驱动的高性能机器人开发框架 [Mirai](https://github.com/mamoe/mirai)
  
@@ -18,6 +18,7 @@
 -3. 如何使用作者配置的Mirai?
 - 请先安装ma(miraiandroid)<br>
 再解压到根目录(即 /storage/emulated/0/)<br>
+参照[旧版教程]()
 ##### 来自作者的好心提醒
 >MT管理器是用来写lua脚本的<br>
 (lua目录在/storage/emulated/0/Android/data/io.github.mzdluo123.mirai.android/files/scripts/ )
