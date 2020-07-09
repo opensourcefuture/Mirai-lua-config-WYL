@@ -62,7 +62,7 @@
 >即通过MiraiAndroid内置的模块管理功能实现关闭模块
 
 - [ ] 功能增加
->靠反馈来~~选择性~~添加功能~~(作者是一个刚加入Mirai开发圈的萌新)~~
+>靠反馈来~~选择性~~添加功能~~(作者是一个刚加入Mirai开发圈的萌新&学生党，技术有限)~~
 
 - [ ] 易于使用
 >MiraiAndroid操作模块化~~自动~~编写(采用~~中文~~编写，由[编译器](https://baike.baidu.com/item/%E7%BC%96%E8%AF%91%E5%99%A8/8853067?fr=aladdin)翻译成Mirai可用的代码)
@@ -72,7 +72,7 @@
 暂时考虑使用[图形编程](https://zhidao.baidu.com/question/563066998.html)类似的方案
 
 有任何问题请使用<br>
-[作者github](https://github.com/opensourcefuture)的issue提出<br>
+[Github](https://github.com/opensourcefuture/MiraiAndroid-WYL)的issue提出<br>
 (QQ上基本不解决问题)
 
 ##### **README.md文档暂时不全，请做等待**<br>
