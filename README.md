@@ -5,7 +5,7 @@
    
 # MiraiAndroid简易配置(来自wyl)
 
-(请使用md阅读器来阅读md文件)<br>
+(请使用Markdown（简称Md）阅读器来阅读md文件)<br>
 
 </div>
 
