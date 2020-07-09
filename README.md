@@ -9,7 +9,9 @@
 
 </div>
 
->什么是Markdown？[Markdown]http://note.youdao.com/iyoudao/?p=2411&vendor=unsilent14)是一种轻量级的「标记语言」，通常为程序员群体所用，目前它已是全球最大的技术分享网站 GitHub 和技术问答网站 StackOverFlow 的御用书写格式。
+>什么是Markdown？
+
+[Markdown](http://note.youdao.com/iyoudao/?p=2411&vendor=unsilent14)是一种轻量级的「标记语言」，通常为程序员群体所用，目前它已是全球最大的技术分享网站 GitHub 和技术问答网站 StackOverFlow 的御用书写格式。
 
 **非技术类笔记用户，千万不要被「标记」、「语言」吓到，Markdown的语法十分简单，常用的标记符号不超过十个，用于日常写作记录绰绰有余，不到半小时就能完全掌握。**
 
@@ -32,11 +34,11 @@
 
 ### -4. 我要找的配置包在哪里
 >点击下方下载👇👇👇👇👇👇👇👇
-            [**百度网盘**]（）👈不掉线，但容易被封
-            [**蓝奏云**]()    👈超过大小无法上传，因此暂时留空吧(等那位[hxd](http://ol.kuai8.com/news/290620.html)给我打钱再说)
-            [**Oneindex**]（）👈经常性服务器掉线,不限制流量和上传大小,而且慢(OneDrive自建的，流量走微软OneDrive服务器，然后同上👆)请使用多线程下载工具如 IDM & ADM 
-            [茸之爪直链下载]() 👈偶尔服务器掉线
-            [Github下载]()    👈慢速
+            [**百度网盘**]（）👈不掉线，但容易被封<br>
+            [**蓝奏云**]()    👈超过大小无法上传，因此暂时留空吧(等那位[hxd](http://ol.kuai8.com/news/290620.html)给我打钱再说)<br>
+            [**Oneindex**]（）👈经常性服务器掉线,不限制流量和上传大小,而且慢(OneDrive自建的，流量走微软OneDrive服务器，然后同上👆)请使用多线程下载工具如 IDM & ADM <br>
+            [茸之爪直链下载]() 👈偶尔服务器掉线<br>
+            [Github下载]()    👈慢速不封，理论永久，除非我[删库跑路](https://www.lxybaike.com/index.php?doc-view-14816.html)了<br>
             
 
 #### 作者提醒:
