@@ -1,0 +1,18 @@
+
+
+测试xml
+card:1
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?><msg serviceID="2" templateID="1" action="web" brief="[分享] 句号" sourceMsgId="0" url="http://music.163.com/song/1405283464/" flag="0" adverSign="0" multiMsgFlag="0"><item layout="2"><audio cover="https://p2.music.126.net/KTo5oSxH3CPA5PBTeFKDyA==/109951164581432409.jpg?param=90y90" src="http://m10.music.126.net/20200309102727/2347651237a856b76182e783c581550a/ymusic/5608/0e09/0f53/abf0f817349caa55389a890edfffa21e.mp3" /><title>句号</title><summary>G.E.M.邓紫棋</summary></item><source name="网易云音乐" icon="https://url.cn/5SsqHuK" url="http://url.cn/5pl4kkd" action="app" a_actionData="com.netease.cloudmusic" i_actionData="tencent100495085://" appid="100495085" /></msg>@2660827262
+
+
+测试json
+json:{"app":"com.tencent.gamecenter.act","desc":"华雨啦","view":"commonView","ver":"1.0.0.1","prompt":"[应用]火影忍者","appID":"1104307008","sourceName":"火影忍者-疾风传","actionData":"","actionData_A":"com.tencent.KiHan","sourceUrl":"","meta":{"shareData":{"openId":"1496146BE42696C12F35AB96AF32AF26","scene":"69","time":"1550146708","extData":{},"cover":"http://dlied5.qq.com/kihan/ark/drama/10.png","textBoxData":{"pic":"","title":"华雨啦","desc":"华雨啦资源网"},"appid":"1104307008","url":"http://dlied5.qq.com/kihan/ark/drama/drama_small_10.mp4"}},"config":{"forward":1,"type":"normal"}}
+
+
+//────────分割线─────────
+//注:卡片分为xml和json两种
+//   (xml容易被屏蔽)
+//   xml卡片开头必须打card:1然后回车
+//   json卡片必须以json:开头
+//   至于xml和json哪来的可以上度娘那要
+//   也可以找大佬要

@@ -1,0 +1,60 @@
+音乐系统
+    @%昵称%\r
+🌝QQ点歌[空格]歌名🌕\r
+🌖酷我点歌[空格]歌名🌗\r
+🌘咪咕点歌[空格]歌名🌑\r
+🌒酷狗点歌[空格]歌名🌓\r
+🌔网易点歌[空格]歌名🌚\r
+🌜电音点歌[空格]歌名🌛\r
+⭐️铃声多多[空格]歌名🌟\r
+🌅%时间MM月dd日%%时间EEEE%🌄\r
+🗻🗻%时间HH点mm%分🗻🗻\r
+
+酷我点歌.*
+$写 机器人/点歌/%QQ% a %参数1%$
+$写 机器人/点歌/%QQ% b API/dg/kw$
+A:$访问 http://ilili.gjwa.cn/API/dg/kw.php?msg=%参数1%$
+%A%\r发:选[空格]数字\r
+
+网易点歌.*
+$写 机器人/点歌/%QQ% a %参数1%$
+$写 机器人/点歌/%QQ% b API/dg/wy$
+A:$访问 http://ilili.gjwa.cn/API/dg/wy.php?msg=%参数1%$
+%A%\r发:选[空格]数字
+
+酷狗点歌.*
+$写 机器人/点歌/%QQ% a %参数1%$
+$写 机器人/点歌/%QQ% b API/dg/index$
+A:$访问 http://ilili.gjwa.cn/API/dg/index.php?msg=%参数1%$
+%A%\r发:选[空格]数字
+
+QQ点歌.*
+$写 机器人/点歌/%QQ% a %参数1%$
+$写 机器人/点歌/%QQ% b API/dg/qq$
+A:$访问 http://ilili.gjwa.cn/API/dg/qq.php?msg=%参数1%$
+%A%\r发:选[空格]数字
+
+咪咕点歌.*
+$写 机器人/点歌/%QQ% a %参数1%$
+$写 机器人/点歌/%QQ% b API/dg/mg$
+A:$访问 http://ilili.gjwa.cn/API/dg/mg.php?msg=%参数1%$
+%A%\r发:选[空格]数字
+
+电音点歌.*
+$写 机器人/点歌/%QQ% a %参数1%$
+$写 机器人/点歌/%QQ% b y2002/api$
+A:$访问 http://ilili.gjwa.cn/y2002/api.php?msg=%参数1%$
+%A%\r发:选[空格]数字
+
+铃声多多.*
+$写 机器人/点歌/%QQ% a %参数1%$
+$写 机器人/点歌/%QQ% b lsdd/api$
+A:$访问 http://ilili.gjwa.cn/lsdd/api.php?msg=%参数1%$
+%A%\r发:选[空格]数字
+
+选 [0-9]+
+g:$读 机器人/点歌/%QQ% a null$
+u:$读 机器人/点歌/%QQ% b null$
+A:$访问 http://ilili.gjwa.cn/%u%.php?msg=%g%&n=%参数1%&r=xml$
+card:1
+%A%

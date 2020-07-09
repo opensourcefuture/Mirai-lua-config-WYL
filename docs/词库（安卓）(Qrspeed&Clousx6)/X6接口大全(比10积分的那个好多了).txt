@@ -1,0 +1,512 @@
+────────快手接口─────────
+快手
+$访问 http://fwq520.cn/api/ks.php$
+
+快手
+$访问 http://api.lllix.com/api.php?id=12$
+
+────────有缘人接口────────
+QQ有缘人
+±img=https://c.51240.com/temp/qqyouyuanren/%QQ%.jpg±
+
+QQ有缘人 .*
+±img=https://c.51240.com/temp/qqyouyuanren/%参数1%.jpg±
+
+────────查询邀请─────────
+大家好，我是.*
+到:$读 %群号%/记录 1 1$
+签:[%到%+1]
+$写 %群号%/记录 1 %签%$
+已经记录你是弟%到%人进入本群
+
+.*邀请.*加入了本群，.*
+到:$读 %群号%/记录 1 1$
+签:[%到%+1]
+$写 %群号%/记录 1 %签%$
+已经记录你是弟%到%人进入本群
+
+.*加入了本群，.*
+到:$读 %群号%/记录 1 1$
+签:[%到%+1]
+$写 %群号%/记录 1 %签%$
+已经记录你是弟%到%人进入本群
+
+邀请人数
+到:$读 %群号%/记录 1 1$
+总共邀请%到%人
+
+────────歌词接口─────────
+歌词 .*
+B:$读 歌词 %QQ% 1$
+A:$访问 http://fwq520.cn/dy.php?a=%参数1%&b=%B%$
+如果:%A%==未找到这首歌的歌词|%A%==\r
+未找到这首歌的歌词
+返回
+如果尾
+如果:%B%==4
+$写 歌词 %QQ% 1$
+返回
+如果尾
+C:[%B%+1]
+$写 歌词 %QQ% %C%$
+$调用 10 歌词 %参数1%$
+%A%
+
+歌词 .*
+$访问 http://api.douqq.com/?key=YUNNZD1rM1p2OVdYaz1yMHF3M3VqT1pjZUFRQUFBPT0&msg=歌词%参数1%$
+
+────────美女图片─────────
+美女图片
+±img=http://tk.mofan520.net/mm/qq29277961/%随机数30-100%.jpg±
+
+1美女图片
+±img=http://img1.mm131.com/pic/%a%/%c%.jpg±
+
+────────王者图片─────────
+王者荣耀图片
+±img=http://miaofeng.xyz/wz/%随机数1-102%.jpg±
+
+────────风景图片─────────
+看风景
+风景来了
+±img=http://lmssss.cn/tp/xk/%随机数1-60%.jpg±
+
+────────火影图片─────────
+火影图片
+±img=http://miaofeng.xyz/huoying/%随机数1-39%.jpg±
+
+────────动漫图片─────────
+动漫图片
+±img=http://miaofeng.xyz/huoying/%随机数1-39%.jpg±
+
+看动漫
+动漫来了
+±img=http://abdd.818bk.pw./tp/%随机数1-95%.jpg±
+
+────────电影接口─────────
+电影 .*
+$访问 http://api.lllix.com/api.php?id=3&msg=%参数1%$
+
+电影 .*
+$访问 http://xys.kszan.cn/dy.php?msg=&id=msg%参数1%id=1$
+
+────────签名接口─────────
+签名.*
+名:$替换 %参数0%|签名|$
+名:$访问 http://fanmo.site/api/yszt.php?&type=%随机数1-7%&name=%名%$
+±img=%名%±
+
+连笔签名 .*
+A:$访问 http://api.o-see.cn/qm.php?mm=qmt.ttf&nr=%参数1%$
+B:$取中间 & %A%&[imgurl]&[/imgurl]$
+你的签名已到
+±img=%B%±
+
+潇洒签名 .*
+A:$访问 http://api.o-see.cn/qm.php?mm=bzcs.ttf&nr=%参数1%$
+B:$取中间 & %A%&[imgurl]&[/imgurl]$
+你的签名已到
+±img=%B%±
+
+草体签名 .*
+A:$访问 http://api.o-see.cn/qm.php?mm=lfc.ttf&nr=%参数1%$
+B:$取中间 & %A%&[imgurl]&[/imgurl]$
+你的签名已到
+±img=%B%±
+
+合同签名 .*
+A:$访问 http://api.o-see.cn/qm.php?mm=haku.ttf&nr=%参数1%$
+B:$取中间 & %A%&[imgurl]&[/imgurl]$
+你的签名已到
+±img=%B%±
+
+商务签名 .*
+A:$访问 http://api.o-see.cn/qm.php?mm=zql.ttf&nr=%参数1%$
+B:$取中间 & %A%&[imgurl]&[/imgurl]$
+你的签名已到
+±img=%B%±
+
+可爱签名 .*
+A:$访问 http://api.o-see.cn/qm.php?mm=yqk.ttf&nr=%参数1%$
+B:$取中间 & %A%&[imgurl]&[/imgurl]$
+你的签名已到
+±img=%B%±
+
+────────装逼接口─────────
+生成法拉利 .*
+±img=http://deepba.com/paper/news/hcdd/img.php?id=1&txt1=%参数1%±
+
+生成保时捷 .*
+±img=http://deepba.com/paper/news/hcdd/img.php?id=2&txt1=%参数1%±
+
+生成奔驰 .*
+±img=http://deepba.com/paper/news/hcdd/img.php?id=3&txt1=%参数1%±
+
+生成玛莎拉蒂 .*
+±img=http://deepba.com/paper/news/msld/img.php?id=1&txt1=%参数1%±
+
+生成私人飞机 .*
+±img=http://deepba.com/paper/news/srfj/img.php?txt1=%参数1%±
+
+生成充气娃娃 .*
+±img=http://deepba.com/paper/news/cqww/img.php?txt1=%参数1%±
+
+生成病危通知 .*
+±img=http://deepba.com/paper/news/bwtzs/img.php?txt1=%参数1%±
+
+生成装逼证 .*
+±img=http://deepba.com/paper/news/zbxkz/img.php?txt1=%参数1%±
+
+生成贫困证 .*
+±img=http://deepba.com/paper/news/pkz/img.php?txt1=%参数1%±
+
+生成催乳师资格证 .*
+±img=http://deepba.com/paper/news/crs/img.php?txt1=%参数1%±
+
+生成孕检报告 .*
+±img=http://deepba.com/paper/news/yybg/img.php?txt1=%参数1%±
+
+生成跆拳道黑段 .*
+±img=http://deepba.com/paper/news/tqdhd/img.php?txt1=%参数1%±
+
+生成奖金支票 .*
+±img=http://deepba.com/paper/news/xmjj/img.php?id=1&txt1=%参数1%±
+
+生成捐精补助 .*
+±img=http://deepba.com/paper/news/jjbz/img.php?txt1=%参数1%±
+
+生成月球广告 .*
+±img=http://deepba.com/paper/news/yqjp/img.php?txt1=%参数1%±
+
+群主晚报 .*|寻人启事 .*
+±img=http://deepba.com/paper/news/hdsl/img.php?id=1&txt1=%参数1%
+
+马云演讲 .*|马云讲课 .*
+±img=http://deepba.com/paper/news/hpdx/img.php?id=1&txt1=%参数1%
+
+喝酒认怂 .* .*
+杰:%随机数1-50%
+±img=http://deepba.com/paper/news/hjrss/img.php?id=1&txt1=%参数1%&
+
+生成王者 .*
+±img=http://c.tianhezulin.com/cx/z016/toutu.php?name=我喜欢你&name2=%参数1%&name3=1±
+
+测 .*
+$访问 http://api.douqq.com/?key=YUNNZD1rM1p2OVdYaz1yMHF3M3VqT1pjZUFRQUFBPT0&msg=%参数1%$
+
+────────点歌接口─────────
+点歌1 .*
+$访问 http://fwq520.cn/api/dg.php?&a=%参数1%&b=1～5$
+
+点歌 .*
+$访问 http://xys.kszan.cn/dg.php?msg=&id=msg%参数1%id=1$
+
+选歌 [0-9]+
+A:$读 点歌 a 0$
+A:$访问 http://fwq520.cn/api/dg1.php?&a=%A%&b=%参数1%&c=json$
+%A%
+
+────────估价接口─────────
+QQ估价 .*
+±img=https://c.51240.com/temp/qqjiazhi/%QQ%.jpg?v=2±
+
+QQ估价 .*|扣扣估价 .*
+±img=https://c.51240.com/temp/qqjiazhi/%参数1%.jpg±
+
+扣扣评估 .*|QQ评估 .*
+$访问 http://api.douqq.com/?key=YUNNZD1rM1p2OVdYaz1yMHF3M3VqT1pjZUFRQUFBPT0&msg=%参数1%$
+
+────────MV接口─────────
+mv .*
+$访问 http://tp1.zzidc.pw/mv.php?&msg=%参数1%$
+
+mv .*
+问:$访问 http://joyoba.com/mv.php?msg=%参数1%$
+%问%
+
+(MV|mv) .*
+杰:$替换 %参数1%|MV|$
+$访问 http://tp1.zzidc.pw/mv.php?&msg=%杰%$
+
+────────天气接口─────────
+天气 .*
+$访问 http://fwq520.cn/api/tq.php?&a=%参数1%&b=1$
+
+天气 .*
+$访问 http://xys.kszan.cn/tq.php?msg=&id=%参数1%id=1$
+
+────────搜图接口─────────
+搜图 .*
+a:$访问 HTTP://I1.BVIMG.COM/511916/07299C689DA960CD.JPG$
+±img=%a%±你的图片来了
+
+搜图 .*
+a:$替换 %参数1%|搜动态图|$
+A:$访问 http://24bbt.top/st.php?msg=%a%gif$
+±img=%A%±
+
+搜图.*
+动:$替换 %参数0%|搜动态图|$
+动:$访问 http://24bbt.top/st.php?msg=%动%gif$
+±img=%动%±
+
+(搜图|动图) .*
+A:$访问 http://24bbt.top/st.php?msg=%参数1%.gif$
+%昵称%\r±img=%A%±
+
+────────举牌接口─────────
+举牌 .*
+a:$访问 http://api.lllix.com/api.php?id=8&msg=%参数1%$
+±img=%a%±内容:%参数1%
+
+举牌.*
+举:$替换 %参数0%|举牌|$
+举:$访问 http://api.lllix.com/api.php?id=8&msg=%举%$
+±img=%举%±
+
+美女举牌 .* .*|美女举牌 .*
+杰:%随机数1-12%
+±img=http://deepba.com/jupai/meizi/img.php?id=%杰%&txt1=%参数1%&txt2=%参数2%&txt3=%参数3%
+
+帅哥举牌 .*
+杰:%随机数1-12%
+%昵称%\r±img=http://deepba.com/jupai/man/img.php?id=%杰%&txt1=%参数1%
+
+其他举牌 .*
+杰:%随机数1-12%
+%昵称%\r±img=http://deepba.com/jupai/other/img.php?id=%杰%&txt1=%参数1%
+
+举牌 .*
+a:$访问 http://a.jaxmz.cn/jp/jp.php?&msg=%参数1%$
+你要是举牌已到
+±img=%a%±
+
+────────斗图接口─────────
+斗图 .*
+A:%随机数1-41%
+±img=http://deepba.com/face/img.php?id=%A%&txt1=%参数1%&font=fzysjt±
+
+斗图 .*
+D:%随机数1-56%
+±img=http://deepba.com/face/img.php?id=%D%&txt1=%参数1%
+
+哈.*
+1:你瞅啥
+2:煞笔不
+3:爆楼上菊花
+4:楼下是帅哥
+5:斗啥图来和我聊天
+6:大佬啊好可怕
+7:一边玩去
+8:垃圾小学生
+9:敢和我打农药吗？
+B:%%随机数1-9%%
+A:%随机数1-41%
+±img=http://deepba.com/face/img.php?id=%A%&txt1=%B%&font=fzysjt±
+
+────────二维码接口────────
+二维码 .*
+a:http://api.lllix.com/api.php?id=6&msg=%参数1%&logo=二维码http://u6.gg/G94p
+±img=%a%±内容:%参数1%
+
+二维码 .*
+A:±img=http://qr.liantu.com/api.php?text=%参数1%
+%A%
+%A%
+@%昵称%\r你的二维码来了\r%A%
+
+────────快递查询接口───────
+查快递 .*
+$访问 http://joyoba.com/app/kd.php?msg=%参数1%$
+
+────────QQ信息─────────
+QQ信息 .*
+Q:$访问 http://api.guaqb.cn/api.php?qq=%参数1%$
+%Q%
+
+────────球球接口─────────
+球球 .*
+$访问 http://api.guaqb.cn/ld.php?qiu=%参数1%$
+
+刷龙蛋.*
+刷:$替换 %参数0%|刷龙蛋|$
+$访问 http://api.lllix.com/api.php?id=10&url=%刷%$
+
+刷棒棒糖.*
+糖:$替换 %参数0%|刷棒棒糖|$
+$访问 http://api.lllix.com/api.php?id=9&url=%糖%$
+
+http://t.cn.*
+A:$访问 http://24bbt.top/php/qiu.php?url=%参数0%&t=lb$
+%A%
+────────聊天接口─────────
+.*@.*|@.* .*
+如果:%AT0%==%robot%
+聊:$访问 http://www.tuling123.com/openapi/api?key=453865bb47014c77ac780191fa067508&info=%参数1%$
+天:$取中间 "%聊%|text":"|"$
+系:$替换 %天%|沈博|帅帅的群主$
+%系%
+
+────────藏头接口─────────
+藏头诗 .*
+$访问 http://api.jmuku.cn/api/chang.php?id=藏头诗&msg=%参数1%$
+
+藏头诗 .*
+$访问 http://api.douqq.com/?key=YUNNZD1rM1p2OVdYaz1yMHF3M3VqT1pjZUFRQUFBPT0&msg=藏头诗%参数1%$
+
+────────听歌接口─────────
+
+听歌
+音:%随机数2000-99999%
+card:1
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?><msg flag="19"  serviceID="2" brief="QQ音乐"  templateID="14" action="web" url="http://i.y.qq.com/v8/playsong.html?songid=%鹤%&amp;souce=qqaio"><item layout="18"><audio cover="http://s.plcloud.music.qq.com/fcgi-bin/fcg_download_picture_by_song_id?size=58&amp;songid=%音%"  src="http://ws.stream.qqmusic.qq.com/%音%.m4a?vkey=&amp;guid=&amp;fromtag=7"/><title>QQ音乐</title><summary>QQ音乐x</summary></item><source name="" icon="" action="" appid="-1"/></msg>
+
+────────空间查询─────────
+空间查询 [0-9]+
+$访问 http://i.itpk.cn/api.php?question=@qq%参数1%&api_key=b031a91e26648f354aa6afba35d0955b&api_secret=ku59mg3yzeku$
+
+────────凶吉接口─────────
+
+QQ凶吉.*
+凶:$替换 %参数0%|QQ凶吉|$
+吉:$访问 http://api.douqq.com/?key=YUNNZD1rM1p2OVdYaz1yMHF3M3VqT1pjZUFRQUFBPT0&msg=QQ凶吉%凶%$
+%吉%
+
+QQ凶吉 .*
+$访问 http://api.douqq.com/?key=YUNNZD1rM1p2OVdYaz1yMHF3M3VqT1pjZUFRQUFBPT0&msg=%参数1%$
+
+────────身份证接口────────
+身份证查询.*
+证:$替换 %参数0%|身份证查询|$
+证:$访问 http://api.douqq.com/?key=YUNNZD1rM1p2OVdYaz1yMHF3M3VqT1pjZUFRQUFBPT0&msg=身份证%证%$$
+%证%
+
+────────短链接─────────
+(短链接|链接) .*
+$访问 http://api.ft12.com/api.php?url=%参数1%$
+
+────────翻译接口─────────
+翻译.*
+$访问 http://api.douqq.com/?key=YUNNZD1rM1p2OVdYaz1yMHF3M3VqT1pjZUFRQUFBPT0&msg=翻译%参数0%$
+
+────────邮编接口─────────
+邮编 .*
+$访问 http://api.douqq.com/?key=YUNNZD1rM1p2OVdYaz1yMHF3M3VqT1pjZUFRQUFBPT0&msg=邮编%参数1%$
+
+────────为什么─────────
+为什么.*
+$访问 http://api.douqq.com/?key=YUNNZD1rM1p2OVdYaz1yMHF3M3VqT1pjZUFRQUFBPT0&msg=为什么%参数0%$
+
+────────奖状接口─────────
+奖状 .*.*.*|奖状 .*
+±img=http://deepba.com/paper/award/diy/img.php?&txt1=%参数1%&txt2=%参数2%&txt3=%参数3%
+
+锦旗 .*.*.*
+±img=http://deepba.com/paper/news/jq/img.php?&txt1=%参数1%&txt2=%参数2%&txt3=%参数3%
+
+────────表白接口─────────
+
+马路表白 .*.*
+±img=http://www.51bbw.cn/pic/24/love.php?One=%参数1%&two=%参数2%±
+
+卡片表白 .*
+±img=http://www.51bbw.cn/pic/28/love.php?One=%参数1%±
+
+爱情表白 .*.*
+±img=http://www.51bbw.cn/pic/23/love.php?One=%参数1%&two=%参数2%±
+
+塔楼表白 .*
+±img=http://www.51bbw.cn/pic/19/love.php?love=%参数1%±
+
+绿箭表白 .*
+±img=http://www.51bbw.cn/pic/18/love.php?name=%参数1%±
+
+爱心表白 .*
+±img=http://www.51bbw.cn/pic/17/love.php?name=%参数1%±
+
+书本表白 .*.*.*
+±img=http://www.51bbw.cn/pic/14/love.php?One=%参数1%&two=%参数2%&three=%参数3%±
+
+手臂表白 .*
+±img=http://www.51bbw.cn/pic/04/love.php?my=%参数1%±
+
+月球表白 .* .*
+杰:%随机数1-20%
+±img=http://deepba.com/paper/news/yqjp/img.php?id=%杰%&txt1=%参数1%&txt2=%参数2%
+
+────────映客直播─────────
+映客直播
+$访问 http://joyoba.com/app/yk.php$
+
+────────美拍接口─────────
+美拍
+$访问 http://joyoba.com/app/mp.php$
+
+────────计算接口─────────
+计算 .*
+$访问 http://api.douqq.com/?key=YUNNZD1rM1p2OVdYaz1yMHF3M3VqT1pjZUFRQUFBPT0&msg=计算%参数1%$
+
+────────每日一句─────────
+每日一句
+$访问 http://api.douqq.com/?key=d21BYj1XM003d2I9TXlLckY1eVN3WSszeXhJQUFBPT0&msg=每日一句$
+
+每日一句
+A:$访问 http://api.douqq.com/?key=YUNNZD1rM1p2OVdYaz1yMHF3M3VqT1pjZUFRQUFBPT0&msg=一言$
+
+────────姓名价值─────────
+姓名价值 .*
+±img=https://c.51240.com/temp/xingmingjiazhi/%参数1%.jpg±
+
+───────手机号地址─────────
+手机号地址 .*
+号:$访问 http://i.itpk.cn/api.php?question=@sjh%参数1%&api_key=b031a91e26648f354aa6afba35d0955b&api_secret=ku59mg3yzeku$
+%号%
+
+───────短信接口─────────
+短信
+$访问 http://qm.lcdphp.cn/api/94api.php?&type=sms$
+
+───────名言接口─────────
+名言
+$访问 http://qm.lcdphp.cn/api/94api.php?&type=famousquotes$
+
+───────短语接口─────────
+短语
+$访问 http://qm.lcdphp.cn/api/94api.php?&type=moodphrases$
+
+───────国家接口─────────
+国家 .*
+$访问 http://qm.lcdphp.cn/api/94api.php?&type=country&msg=%参数1%$
+
+───────黄历接口─────────
+黄历
+$访问 http://qm.lcdphp.cn/api/94api.php?&type=huangli$
+
+───────歇后语接口─────────
+歇后语
+$访问 http://qm.lcdphp.cn/api/94api.php?&type=xhy$
+
+───────诗词接口─────────
+诗词
+$访问 http://qm.lcdphp.cn/api/94api.php?&type=sc$
+
+───────段子接口─────────
+段子
+$访问 http://joyoba.com/app/neihan.php$
+
+──────免费名片赞接口────────
+赞 [0-9]+
+$访问 http://api.isshw.cn/qqzan/zan_url.php?&zan=%参数1%&a=1$
+
+───────图片编辑─────────
+图片编辑
+http://www.gaitubao.com/
+
+───────笑话接口─────────
+笑话
+A:$访问 http://api.douqq.com/?key=YUNNZD1rM1p2OVdYaz1yMHF3M3VqT1pjZUFRQUFBPT0&msg=笑话$
+
+───────历史今天─────────
+历史今天
+$访问 http://www.ipip5.com/today/api.php?$
+
