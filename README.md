@@ -5,7 +5,7 @@
    
 # MiraiAndroid简易配置(来自wyl)
 
-(请使用Markdown（简称Md）阅读器来阅读md文件),这里提供[纯纯写作](https://github.com/opensourcefuture/MiraiAndroid-WYL/blob/master/%E7%BA%AF%E7%BA%AF%E5%86%99%E4%BD%9C_16.5.4.apk)和[有道云笔记Android](http://note.youdao.com/download.html?auto=1#android)&#8195;[有道云笔记PC](http://download.ydstatic.com/notewebsite/downloads/YNote.exe)<br>
+(请使用Markdown（简称Md）阅读器来阅读md文件),这里提供[纯纯写作](https://github.com/opensourcefuture/MiraiAndroid-WYL/blob/master/%E7%BA%AF%E7%BA%AF%E5%86%99%E4%BD%9C_16.5.4.apk)和[有道云笔记Android](http://note.youdao.com/download.html?auto=1#android)&[有道云笔记PC](http://download.ydstatic.com/notewebsite/downloads/YNote.exe)<br>
 
 </div>
 
