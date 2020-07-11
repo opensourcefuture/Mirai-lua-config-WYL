@@ -19,7 +19,7 @@
 
 ## 进入正题<br>
 
-本~~项目~~README.md基于[Mirai-lua](https://github.com/only52607/lua-mirai),基本用于MA,已更新MP(Mirai_PC)版
+本~~项目~~MA配置基于[Mirai-lua](https://github.com/only52607/lua-mirai),基本用于MA,已更新MP(Mirai_PC)版
 
 ### -1. 什么是Mirai?
  - Mirai是以 OICQ(QQ) 协议驱动的高性能机器人开发框架 [Mirai](https://github.com/mamoe/mirai)
