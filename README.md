@@ -19,20 +19,24 @@
 
 ## 进入正题<br>
 
+本~~项目~~README.md基于[Mirai-lua](https://github.com/only52607/lua-mirai),基本用于MA,已更新MP(Mirai_PC)版
+
 ### -1. 什么是Mirai?
  - Mirai是以 OICQ(QQ) 协议驱动的高性能机器人开发框架 [Mirai](https://github.com/mamoe/mirai)
  
-### -2. 什么是[MiraiAndroid(MA)](https://github.com/mzdluo123/MiraiAndroid)?
- - MA是Mirai在安卓运行的广泛采取方案<br>
- 当然你也可以使用Termux运行Linux，再通过Linux运行MiraiOK/mirai-console<br>
+### -2. 什么是MA?
+ - [MiraiAndroid(MA)](https://github.com/mzdluo123/MiraiAndroid)是Mirai在安卓运行的广泛采取方案<br>
+ 当然你也可以[使用Termux运行Linux](https://stageguard.top/2020/04/01/run-qqbot-on-termux-android/)，再通过Linux运行MiraiOK/mirai-console<br>
  (理论上主要有Java环境，都能运行Mirai)
  
-### -3. 如何使用作者配置的Mirai?
+### -3. Mirai-lua是什么?
+ 
+### -4. 如何使用作者配置的Mirai?
 - 请先安装[MA(MiraiAndroid)](https://github.com/opensourcefuture/MiraiAndroid-WYL/blob/master/MiraiAndroid_2.9.4.apk)<br>
 再解压到[根目录](https://zhidao.baidu.com/question/1579269669391329660.html)(即 /storage/emulated/0/)<br>
 参照[旧版教程](这里等以后补链)
 
-### -4. 我要找的配置包在哪里
+### -5. 我要找的配置包在哪里?
 >点击下方下载👇👇👇👇<br>
 &#8195;&#8195;&#8195;&#8195;&#8195;&#8195;[**百度网盘**]()<br>
 &#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;👆不掉线，但容易被封<br>
@@ -65,7 +69,7 @@
 >靠反馈来~~选择性~~添加功能~~(作者是一个刚加入Mirai开发圈的萌新&学生党，技术有限)~~
 
 - [ ] 易于使用
->MiraiAndroid操作模块化~~自动~~编写(采用~~中文~~编写，由[编译器](https://baike.baidu.com/item/%E7%BC%96%E8%AF%91%E5%99%A8/8853067?fr=aladdin)翻译成Mirai可用的代码)
+>MiraiAndroid操作模块化&#8195;~~自动~~编写(采用~~中文~~编写，由[编译器](https://baike.baidu.com/item/%E7%BC%96%E8%AF%91%E5%99%A8/8853067?fr=aladdin)翻译成Mirai可用的代码)
 
 - [ ] MiraiAndroid开发简化&普及
 >使普通人也能学会使用MiraiAndroid<br>
@@ -77,3 +81,6 @@
 
 ##### **README.md文档暂时不全，请做等待**<br>
 >(排版的问题等我学会Markdown语言再说)
+
+
+
