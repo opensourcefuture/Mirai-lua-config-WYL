@@ -30,6 +30,7 @@
  (理论上主要有Java环境，都能运行Mirai)
  
 ### -3. Mirai-lua是什么?
+- Mirai-lua是Mirai的lua脚本sdk，算是Mirai的一个分支吧&#8195;~~lua-mirai其实可以独立于Mirai-console存在~~&#8195;,这个分支在Mirai-Android上广泛使用
  
 ### -4. 如何使用作者配置的Mirai?
 - 请先安装[MA(MiraiAndroid)](https://github.com/opensourcefuture/MiraiAndroid-WYL/blob/master/MiraiAndroid_2.9.4.apk)<br>
