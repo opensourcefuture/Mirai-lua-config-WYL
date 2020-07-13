@@ -55,10 +55,10 @@
 ### -6. 有没有其他可用的的lua脚本?在哪里可以获取?
 - lua-mirai&#8195;sdk作者的demo插件[点此进入](https://github.com/only52607/lua-mirai/tree/master/demos)
 
-#### 作者提醒:
+### -7. 我不需要/想要这个功能怎么办?
 >想要停用的模块在lua脚本里可以使用**'--'开头**来实现<br>
-(记得把整个模块都禁用，即将if到end之间的所有语句都使用"--"开头来实现禁用)<br>
-示例:
+(把整个模块都禁用，即将if到end之间的所有语句都使用"--"开头来实现禁用or只禁用某模块的一部分功能)<br>
+示例:<br>
 ![]https://github.com/opensourcefuture/MiraiAndroid-WYL/blob/master/docs/mirai%E6%95%99%E7%A8%8B/10.png
 <br>
 
