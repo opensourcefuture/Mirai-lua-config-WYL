@@ -58,7 +58,9 @@
 #### 作者提醒:
 >想要停用的模块在lua脚本里可以使用**'--'开头**来实现<br>
 (记得把整个模块都禁用，即将if到end之间的所有语句都使用"--"开头来实现禁用)<br>
-示例:![]https://github.com/opensourcefuture/MiraiAndroid-WYL/blob/master/docs/mirai%E6%95%99%E7%A8%8B/10.png
+示例:
+![]https://github.com/opensourcefuture/MiraiAndroid-WYL/blob/master/docs/mirai%E6%95%99%E7%A8%8B/10.png
+<br>
 
 #### 来自作者的好心提醒
 >写lua脚本可用[MT管理器](https://github.com/opensourcefuture/MiraiAndroid-WYL/blob/master/MT%E7%AE%A1%E7%90%86%E5%99%A8_2.9.1.apk)<br>
