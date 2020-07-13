@@ -59,8 +59,8 @@
 >想要停用的模块在lua脚本里可以使用**'--'开头**来实现<br>
 (把整个模块都禁用，即将if到end之间的所有语句都使用"--"开头来实现禁用or只禁用某模块的一部分功能)<br>
 示例:
-<img width="160" src="docs/mirai教程/010.png" alt="禁用整个模块"><br>
-<img width="160" src="docs/mirai教程/011.png" alt="禁用单个模块"><br>
+<img width="1600" src="docs/mirai教程/010.png" alt="禁用整个模块"><br>
+<img width="1600" src="docs/mirai教程/011.png" alt="禁用单个模块"><br>
 
 #### 来自作者的好心提醒
 >写lua脚本可用[MT管理器](https://github.com/opensourcefuture/MiraiAndroid-WYL/blob/master/MT%E7%AE%A1%E7%90%86%E5%99%A8_2.9.1.apk)<br>
