@@ -39,7 +39,7 @@
 
 ### 5. 我要找的配置包在哪里?
 >安卓的到release里找安卓,PC的到release里找PC的<br>
-[Release直达](https://github.com/opensourcefuture/MiraiAndroid-WYL/releases)
+[Release直达](https://github.com/opensourcefuture/MiraiAndroid-WYL/releases)<br>
 点击下方下载👇👇👇👇<br>
 &#8195;&#8195;&#8195;&#8195;&#8195;&#8195;[**百度网盘**]()<br>
 &#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;👆不掉线，但容易被封<br>
