@@ -60,7 +60,7 @@ Event.onLoad =
                     if sender.id == 1770747317 then
                         group:sendMsg( Msg():setQuote(msg)+ net.get("https://chp.shadiao.app/api.php"))
                     else
-                        group:sendMsg( Msg():setQuote(msg)+ net.get("谁是你老婆，死宅恶心心!"))
+                        group:sendMsg( Msg():setQuote(msg)+ "谁是你老婆，死宅恶心心!")
                     end
                 end
 
@@ -127,6 +127,29 @@ Event.onLoad =
                 if msg:find("mirai一言")  then
                     group:sendMsg( Msg():setQuote(msg)+"你要的一言来了:"+net.get("https://api.ixiaowai.cn/ylapi/index.php"))
                 end
+
+                --[[if msg:find("获取头像") then
+                    QQnumber = msg:gsub("获取头像","")
+                    group:sendMsg(QQnumber)
+                    local Avatar = net.get("q.qlogo.cn/g?b=qq&nk="..QQnumber.."&s=640")
+                    group:sendMsg( Msg():appendImage(Avatar, group) )
+                end]]
+
+                if msg:find("!repeat") then
+                    Repeat = msg:gsub("!repeat","")
+                    group:sendMsg(Repeat)
+                end
+--"!repeat"可以替换成别的命令
+
+                if msg:find("hitokoto")  then
+                    local yiyan = net.get("https://v1.hitokoto.cn/"):match('"hitokoto":"(.-)","type":"')
+                    local source = net.get("https://v1.hitokoto.cn/"):match(',"from":"(.-)","')
+                    local author = net.get("https://v1.hitokoto.cn/"):match('"from_who":"(.-)","creator"')
+                    group:sendMsg( Msg():setQuote(msg)+"hitokoto一言来了:"+net.get("https://v1.hitokoto.cn/")))
+                    group:sendMsg( Msg():setQuote(msg)+Msg("hitokoto一言来了:")+yiyan)
+                    group:sendMsg( Msg():setQuote(msg)+Msg("来源")+source)
+                    group:sendMsg( Msg():setQuote(msg)+Msg("作者")+author)
+                end
                 
                 if msg:find("冒泡") then
                     group:sendMsg( Msg():setQuote(msg) ..  Msg("戳掉~~"))
@@ -139,12 +162,6 @@ Event.onLoad =
                 if msg:find("狐狸召唤术") then
                     group:sendMsg( Msg():setQuote(msg)+"嗷呜，找狐狸狸有什么事？")
                 end
-                
-                --if msg:find("获取头像") then
-                    --QQnumber = pattern.compile(?<=at)
-                    --local 头像 = net.get("q.qlogo.cn/g?b=qq&nk="+QQ号+"&s=640")
-                    --group:sendMsg( Msg():appendImage(头像, group) )
-                --end
                 
                 if msg:find("来点menhera") then
                     local menhera = ("https://api.ixiaowai.cn/mcapi/mcapi.php")
@@ -160,6 +177,15 @@ Event.onLoad =
                     local erciyuan = ("https://api.ixiaowai.cn/api/api.php")
                     group:sendMsg( Msg():appendImage(erciyuan, group) )
                 end
+
+                if msg:find("营销号生成") then
+                    A = string.sub(msg,string.find(msg,'f')+1,string.find(msg,'l')-1)
+                    B = string.sub(msg,string.find(msg,'l')+1)
+                    group:sendMsg(''..A..''..B..'是怎么回事呢？'..A..'相信大家都很熟悉,但是,'..A..''..B..'是怎么回事呢，下面让小编带大家一起了解吧。')
+                    group:sendMsg(  ''..A..''..B..'其实是因为这样,大家可能会很惊讶'..A..'怎么会'..B..'呢？但事实就是这样，小编感到很惊讶。')
+                    group:sendMsg('这就是关于'..A..''..B..'的事情了，大家有什么想法呢，欢迎在评论区告诉小编一起讨论哦！', group)
+                end
+                
 
             end
         )
