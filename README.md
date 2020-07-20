@@ -100,7 +100,7 @@ Github&#8195;Gitee同步更新&#8195;(大概)<br>
 [Gitee](https://github.com/opensourcefuture/MiraiAndroid-WYL)<br>
 
 
-#此Mirai配置是开源的，转载请注明[来源](https://github.com/opensourcefuture/MiraiAndroid-WYL)。<br>
+# 此Mirai配置是开源的，转载请注明[来源](https://github.com/opensourcefuture/MiraiAndroid-WYL)。<br>
 ###### 禁止商业化<br>
 ##### 禁止商业化<br>
 #### 禁止商业化<br>
