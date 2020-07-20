@@ -94,3 +94,12 @@
 
 [Github](https://github.com/opensourcefuture/MiraiAndroid-WYL)<br>
 [Gitee](https://github.com/opensourcefuture/MiraiAndroid-WYL)
+
+
+此词库为开源词库。
+###### 禁止商业化
+##### 禁止商业化
+#### 禁止商业化
+### 禁止商业化
+## 禁止商业化
+# 禁止商业化
