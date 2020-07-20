@@ -37,6 +37,9 @@
 再解压到[根目录](https://zhidao.baidu.com/question/1579269669391329660.html)(即 /storage/emulated/0/)<br>
 参照[旧版教程](https://github.com/opensourcefuture/MiraiAndroid-WYL/blob/master/%E6%97%A7%E7%89%88%E6%95%99%E7%A8%8B.md)
 
+### 5. 作者写的lua脚本在哪里
+>[lua目录直达](https://github.com/opensourcefuture/MiraiAndroid-WYL/tree/master/Android/data/io.github.mzdluo123.mirai.android/files/scripts)
+
 ### 5. 我要找的配置包在哪里?
 >安卓的到release里找安卓,PC的到release里找PC的<br>
 [Release直达](https://github.com/opensourcefuture/MiraiAndroid-WYL/releases)<br>
@@ -54,10 +57,10 @@
 &#8195;&#8195;&#8195;&#8195;&#8195;&#8195;[**Github下载**](https://github.com/opensourcefuture/MiraiAndroid-WYL/releases/tag/v0.01)<br>
 &#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;👆慢速不封，理论永久&#8195;除非我[删库跑路](https://www.lxybaike.com/index.php?doc-view-14816.html)了<br>
 
-### 6. 有没有其他~~好玩的~~可用的的lua脚本?在哪里可以获取?
-- lua-mirai&#8195;sdk作者的demo插件[点此进入](https://github.com/only52607/lua-mirai/tree/master/demos)
+### 7. 有没有其他~~好玩的~~可用的的lua脚本?在哪里可以获取?
+- lua-mirai&#8195;sdk作者的demo插件[点此进入](https://github.com/only52607/lua-mirai/tree/master/demos)<br>
 
-### 7. 我不需要/想要这个功能怎么办?
+### 8. 我不需要/想要这个功能怎么办?
 >想要停用的模块在lua脚本里可以使用**'--'开头**来实现<br>
 (把整个模块都禁用，即将if到end之间的所有语句都使用"--"开头来实现禁用or只禁用某模块的一部分功能)<br>
 示例:
@@ -90,16 +93,17 @@
 (QQ上基本不解决问题)
 
 ##### **README.md文档暂时不全，请做等待**<br>
->(排版的问题等我学会Markdown语言再说)
+>(排版的问题等我学会Markdown语言再说)<br>
 
+Github&#8195;Gitee同步更新&#8195;(大概)<br>
 [Github](https://github.com/opensourcefuture/MiraiAndroid-WYL)<br>
-[Gitee](https://github.com/opensourcefuture/MiraiAndroid-WYL)
+[Gitee](https://github.com/opensourcefuture/MiraiAndroid-WYL)<br>
 
 
-此词库为开源词库。
-###### 禁止商业化
-##### 禁止商业化
-#### 禁止商业化
-### 禁止商业化
-## 禁止商业化
-# 禁止商业化
+#此Mirai配置是开源的，转载请注明[来源](https://github.com/opensourcefuture/MiraiAndroid-WYL)。<br>
+###### 禁止商业化<br>
+##### 禁止商业化<br>
+#### 禁止商业化<br>
+### 禁止商业化<br>
+## 禁止商业化<br>
+# 禁止商业化<br>
