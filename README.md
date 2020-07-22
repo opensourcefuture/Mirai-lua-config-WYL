@@ -33,10 +33,10 @@
 - Mirai-lua是Mirai的lua脚本sdk，算是Mirai的一个分支吧&#8195;~~lua-mirai其实可以独立于Mirai-console存在~~&#8195;,这个分支在Mirai-Android上广泛使用
  
 ### 4. 如何使用作者配置的Mirai?
-- 请先安装[MA(MiraiAndroid)](https://github.com/opensourcefuture/MiraiAndroid-WYL/blob/master/MiraiAndroid_2.9.4.apk)<br>
-再将rar包或者是zip包解压到[根目录](https://zhidao.baidu.com/question/1579269669391329660.html)(即 /storage/emulated/0/)<br>
+- 请先安装[MA(MiraiAndroid)](https://github.com/opensourcefuture/MiraiAndroid-WYL/blob/master/MiraiAndroid_2.9.4.apk)<br><br>
+- 再将rar包或者是zip包解压到[根目录](https://zhidao.baidu.com/question/1579269669391329660.html)(即 /storage/emulated/0/)<br>
 参照[旧版教程](https://github.com/opensourcefuture/MiraiAndroid-WYL/blob/master/%E6%97%A7%E7%89%88%E6%95%99%E7%A8%8B.md)<br>
-#### 👆作废
+#### 上文👆作废
 [请点击此到教程页面](https://github.com/opensourcefuture/Mirai-lua-config-WYL/blob/master/docs/README.md)
 
 ### 5. 作者写的lua脚本在哪里
