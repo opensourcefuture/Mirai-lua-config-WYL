@@ -37,7 +37,9 @@
 - 再将rar包或者是zip包解压到[根目录](https://zhidao.baidu.com/question/1579269669391329660.html)(即 /storage/emulated/0/)<br>
 参照[旧版教程](https://github.com/opensourcefuture/MiraiAndroid-WYL/blob/master/%E6%97%A7%E7%89%88%E6%95%99%E7%A8%8B.md)<br>
 #### 上文👆作废
-[请点击此到教程页面](https://github.com/opensourcefuture/Mirai-lua-config-WYL/blob/master/docs/README.md)
+[请点击此到教程页面](https://github.com/opensourcefuture/Mirai-lua-config-WYL/blob/master/docs/README.md)<br>
+有人说不会用mt管理器&MA一键导入的时候找不到文件，请点击这里👇
+&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;[mt管理器教程]()&MA教程
 
 ### 5. 作者写的lua脚本在哪里
 >[lua目录直达](https://github.com/opensourcefuture/MiraiAndroid-WYL/tree/master/Android/data/io.github.mzdluo123.mirai.android/files/scripts)
