@@ -9,7 +9,7 @@
 
 </div>
 
-# 本文档已无用处，请更新miraiandroid<br>
+~~本文档已无用处，请更新miraiandroid~~<br>
 
 >什么是Markdown？
 
