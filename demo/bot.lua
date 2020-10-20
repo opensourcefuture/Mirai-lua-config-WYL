@@ -24,6 +24,10 @@ bot:subscribeFriendMsg(
             end
         end
 
+        if msg:find("hso") or msg:find("色图") or msg:find("不够色") then
+            group:sendImg(Http.getRedirectUrl("https://api.r10086.com/%E5%8A%A8%E6%BC%AB%E7%BB%BC%E5%90%881.php","https://img.r10086.com/"))
+        end
+
         if msg == ("验证管理员") then
             if Administrator == true then
                 sender:sendMsg("你是狐狸狸の监护人啦~")
